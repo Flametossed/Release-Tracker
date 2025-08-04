@@ -1,6 +1,6 @@
 from motor.motor_asyncio import AsyncIOMotorClient
 from typing import Optional, List, Dict, Any
-from datetime import datetime
+from datetime import datetime, timedelta
 import logging
 from config import settings
 from models import Game, Platform, GameDB
